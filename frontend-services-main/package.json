@@ -1,0 +1,19 @@
+{
+  "name": "frontend-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.0",
+    "cloudinary": "^1.37.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fabric": "^5.3.0"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "builder_jwtPrivateKey",
+  "retailerPrivateKey":"retailerPrivate"
+}

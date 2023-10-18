@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS styles for the email */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      background-color: #00A7E9;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    .message {
+      padding: 20px;
+      text-align: left;
+    }
+    .footer {
+      background-color: #00A7E9;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    .footer p {
+      margin: 0;
+    }
+    .ticket-details {
+      margin-top: 20px;
+      text-align: left;
+    }
+    .ticket-details li {
+      list-style-type: none;
+      margin-bottom: 5px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Ticket Created Successfully!</h1>
+  </div>
+
+  <div class="message">
+    <p>Dear <%= firstName %>,</p>
+    <p>Thank you for creating a support ticket. We have received your request and will address it as soon as possible.</p>
+    <div class="ticket-details">
+      <p>Ticket details:</p>
+      <ul>
+        <li><strong>Ticket ID:</strong> <%= ticketId %></li>
+        <li><strong>Title:</strong> <%= ticketTitle %></li>
+        <li><strong>Description:</strong> <%= ticketDescription %></li>
+        <li><strong>Status:</strong> <%= ticketStatus %></li>
+      </ul>
+    </div>
+    <p>If you have any further questions or updates regarding this ticket, please feel free to reach out to us.</p>
+    <p>Best regards,</p>
+    <p>The <%= companyName %> Support Team</p>
+  </div>
+
+  <div class="footer">
+    <p>© 2023 <%= companyName %>. All rights reserved.</p>
+  </div>
+</body>
+</html>

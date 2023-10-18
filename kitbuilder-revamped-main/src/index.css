@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,600&family=Open+Sans&family=Roboto&family=Unbounded&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wc{
+  color:white !important;
+}
+
+.nunito-b{
+  font-family: nunito !important;
+  font-weight: 700 !important;
+}
+
+.css-2fdkz6{
+  font-family: nunito !important;
+  font-weight: 400 !important;
+}
+
+.nunito-r{
+  font-family: nunito !important;
+  font-weight: 400 !important;
+}
+.css-1hv8oq8-MuiStepLabel-label.Mui-active{
+  color:#FFFFFF !important;
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animatedScroll {
+  animation: scrollAnimation 2s infinite;
+}
+
+.css-1hv8oq8-MuiStepLabel-label{
+  font-family: nunito !important;
+  font-weight: 400 !important;
+}
+
+
+/* 
+.MuiStepLabel-label Mui-active MuiStepLabel-alternativeLabel css-1hv8oq8-MuiStepLabel-label{
+  color:white !important;
+}
+.css-2fdkz6.Mui-active{
+  color:white !important;
+  color: #001C67
+} */
+
+
+
+/* CustomStepper.css */
+
+/* Increase circle size */
+.MuiStepIcon-root {
+  width: 50px !important;
+  height: 50px !important;
+  font-size: 18px !important;
+  margin-top: -16px !important;
+  z-index: 2 !important;
+  position: relative !important;
+}
+
+/* Text color */
+.MuiStepLabel-label {
+  color: #FFFFFF !important;
+}
+
+/* Center the line and set its z-index */
+.MuiStepConnector-line {
+  /* top: 50% !important; */
+  transform: translateY(-50%) !important;
+  z-index: 1 !important;
+}
+
+/* Adjust line thickness */
+.MuiStepConnector-lineHorizontal {
+  min-height: 2px !important;
+}
+
+/* Additional styles for active and inactive state */
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #001C67 !important;
+  border: 2px solid white !important;
+  border-radius: 50% !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+  color: #960909 !important;
+  border: 2px solid white !important;
+  border-radius: 50% !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.css-4ff9q7{
+  color:#960909 !important;
+  border:3px solid white !important;
+  border-radius: 50% !important;
+}
+
+.MuiStepIcon-text {
+  font-family: nunito !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed{
+  background: white !important;
+}
+.css-4ff9q7.Mui-completed{
+  background: white !important;
+}
+.css-4ff9q7{
+  background: white !important;
+}
+
+
+
