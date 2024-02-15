@@ -26,6 +26,7 @@
     "react-svg": "^16.1.26",
     "redux-persist": "^6.0.0",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.8",
     "uuid": "^9.0.1",
     "webfontloader": "^1.6.28"
   },
